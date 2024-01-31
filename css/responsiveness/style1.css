@@ -1,0 +1,27 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+   /*  align-items: center; */
+    /* flex-direction: column; */
+   /*  justify-content: center; */
+   justify-content: space-between;
+}
+
+.child{
+    height: 250px;
+    width: 250px;
+    background-color: crimson;
+    border: 2px solid #fff;
+    flex-wrap: wrap;
+}

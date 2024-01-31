@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* #parent{ */
+    /* background-color: rosybrown; */
+/* } */
+
+/* #child{ */
+    /* height: 50%; */
+    /* width: 50%; */
+    /* background-color: rgb(206, 225, 65); */
+/* } */
+
+/* h1{ */
+    /* font-size: 10vw; */
+/* } */
+
+#parent{
+    background-color: rosybrown;
+    font-size: 50px;
+}
+h1{
+    font-size: 1em;
+}
